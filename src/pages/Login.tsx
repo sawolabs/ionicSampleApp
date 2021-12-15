@@ -30,12 +30,15 @@ const Login = () => {
   return (
     <div className="containerStyle">
       <section>
+      
         {!isUserLoggedIn ? (
           <div id="sawo-container" style={{ height: "300px", width: "400px"}}></div>
         ) : (
           <div className="loggedin">
             <h2>User Successfully Logged in!</h2>
+            <div>{payload}</div>
           </div>
+         
         )}
       </section>
     </div>
