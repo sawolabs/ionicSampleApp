@@ -1,0 +1,14 @@
+{
+  "name": "Sawolabs Ionic Sample App",
+  "repository": "https://github.com/sawolabs/ionicSampleApp",
+  "keywords": [
+    "sawolabs",
+    "react",
+    "passwordless"
+  ],
+  "env": {
+    "REACT_APP_API_KEY": {
+      "description": "API KEY FOR SAWO"
+  }
+}
+}
